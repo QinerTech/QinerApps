@@ -16,7 +16,7 @@ version_info = (9, 0, 0, FINAL, 0, 'c')
 version = '.'.join(map(str, version_info[:2])) + RELEASE_LEVELS_DISPLAY[version_info[3]] + str(version_info[4] or '') + version_info[5]
 series = serie = major_version = '.'.join(map(str, version_info[:2]))
 
-product_name = 'QinerApps'
+product_name = 'Odoo'
 description = 'Based on Odoo Community Server'
 long_desc = '''QinerApps is a complete ERP and CRM. The main features are accounting (analytic
 and financial), stock management, sales and purchases management, tasks
