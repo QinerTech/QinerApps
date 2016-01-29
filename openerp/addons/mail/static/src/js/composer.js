@@ -371,7 +371,7 @@ var BasicComposer = Widget.extend({
         this.$input.focus(function () {
             self.trigger('input_focused');
         });
-// Qiner_Gavin_20160127: enable vertical resize for composer box
+// Qiner_Gavin_20160127: enable vertical resize for composizer box
 //        dom_utils.autoresize(this.$input, {parent: this, min_height: this.options.input_min_height});
 
         // Attachments
