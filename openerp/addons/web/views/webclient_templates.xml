@@ -182,16 +182,18 @@
                 </t>
                 <t t-set="body_classname" t-value="'container'"/>
                 <div class="row">
-                  <div class="col-md-6 col-md-offset-3 o_database_list">
+                  <div class="col-md-4 col-md-offset-4 o_database_list">
                     <div class="text-center">
                       <img t-attf-src="/web/binary/company_logo{{ '?dbname='+db if db else '' }}"/>
                     </div>
                     <t t-raw="0"/>
                     <div class="text-center" t-if="not disable_footer">
+<!--
                         <t t-if="not disable_database_manager">
                             <a class="" href="/web/database/manager">Manage Databases</a> |
                         </t>
-                        <a href="https://www.odoo.com" target="_blank">Powered by <span>Odoo</span></a>
+-->
+                        <a href="https://www.qiner.com.cn" target="_blank">Powered by <span>Qiner Tech</span></a>
                     </div>
 
                   </div>
@@ -274,7 +276,7 @@
                 </t>
             </div>
             <div class="oe_footer">
-                Powered by <a href="http://www.odoo.com" target="_blank"><span>Odoo</span></a>
+                Powered by <a href="http://www.qiner.com.cn" target="_blank"><span>Qiner Tech</span></a>
             </div>
         </template>
         <template id="web.menu_secondary_submenu">
