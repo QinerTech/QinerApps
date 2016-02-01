@@ -228,8 +228,8 @@ msgstr "<span class=\"oe_logo_edit\">编辑公司数据</span>"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.menu_secondary
-msgid "<span>Odoo</span>"
-msgstr "<span>Odoo</span>"
+msgid "<span>Qiner Tech</span>"
+msgstr "<span>勤而科技</span>"
 
 #. module: web
 #. openerp-web
@@ -1737,7 +1737,7 @@ msgstr "技术支持"
 #. module: web
 #: model:ir.ui.view,arch_db:web.login_layout
 msgid "Powered by <span>Qiner Tech</span>"
-msgstr "由<span>勤而科技</span>提供技术支持"
+msgstr "由<span> 勤而科技 </span>提供技术支持"
 
 #. module: web
 #. openerp-web
