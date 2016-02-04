@@ -31,7 +31,7 @@
         <head>
             <meta charset="utf-8" />
             <meta name="viewport" content="initial-scale=1"/>
-            <title><t t-esc="title or 'Odoo Report'"/></title>
+            <title><t t-esc="title or 'QinerApps Report'"/></title>
             <t t-call-assets="report.assets_common"/>
             <t t-if="editable">
                 <t t-call-assets="web_editor.assets_editor"/>
